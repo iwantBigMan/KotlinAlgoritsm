@@ -1,4 +1,4 @@
-package kotlinTest.stringHandling
+package kotlinAlgorithm
 
 // 숫자 문자열과 영단어 치환하기
 

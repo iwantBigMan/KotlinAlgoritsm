@@ -1,4 +1,4 @@
-package kotlinTest.stringHandling
+package kotlinAlgorithm
 
 import java.io.BufferedReader
 import java.io.InputStreamReader
