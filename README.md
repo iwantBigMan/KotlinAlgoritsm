@@ -1,5 +1,7 @@
 # 코틀린 알고리즘 공부
 
+* OS : macOS
+
 * 개발 툴 : intelliJ IDEA
 
 * 언어 : Kotlin 
