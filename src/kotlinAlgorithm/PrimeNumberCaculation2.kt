@@ -1,12 +1,14 @@
 package kotlinAlgorithm
 
+import java.io.BufferedReader
+import java.io.InputStreamReader
 import java.util.Scanner
 
 // 백준 소수 구하기 2581
 
-fun main() = with(Scanner(System.`in`)) {
-    val minNumber = this.nextInt()
-    val maxNumber = this.nextInt()
+fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
+    val minNumber = this.readLine().toInt()
+    val maxNumber = this.readLine().toInt()
     var minPrime = 0
     var sumPrime = 0
     val primeNumber = Array(maxNumber + 1) {true}
@@ -28,5 +30,12 @@ fun main() = with(Scanner(System.`in`)) {
             }
             sumPrime += i
         }
+    }
+    if (minPrime == 0){
+        println(-1)
+    }
+    else{
+        println(sumPrime)
+        println(minPrime)
     }
 }
