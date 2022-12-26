@@ -1,7 +1,7 @@
 package kotlinAlgorithm
 
 import java.lang.StringBuilder
-
+// 백준 11653
 fun main(){
     var number = readln().toInt()
     val sb = StringBuilder()
